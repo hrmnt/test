@@ -28,6 +28,24 @@
   color: #61dafb;
 }
 
+.d-flex{
+  display: flex;
+}
+
+.row{
+  flex-direction: "row";
+}
+
+.table-cell{
+  border: 1px solid  #282c34!important;
+  width: 10px;
+  height: 10px;
+  background-color: bisque;
+}
+.table-cell:hover{
+  background: red;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
